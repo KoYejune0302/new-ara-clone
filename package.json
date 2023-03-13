@@ -1,0 +1,40 @@
+{
+  "name": "new-ara-clone",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc && vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "ts-node": "ts-node -r tsconfig-paths/register ./src/index.ts"
+  },
+  "dependencies": {
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/addons": "^6.5.16",
+    "@storybook/react": "^6.5.16",
+    "i18next": "^22.4.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.2.0",
+    "react-router-dom": "^6.9.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.19",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "bulma": "^0.9.4",
+    "node-sass": "^6.0.1",
+    "sass": "^1.58.3",
+    "sass-loader": "^10.2.1",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.2",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0",
+    "vite-tsconfig-paths": "^4.0.5"
+  }
+}

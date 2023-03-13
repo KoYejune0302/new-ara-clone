@@ -1,0 +1,92 @@
+$theme-red: #e15858;
+$theme-red-dark: rgb(204, 59, 59);
+$dark: #333333;
+$gray: #666666;
+$family-sans-serif: var(--font);
+$render-mode: auto;
+$body-rendering: auto;
+
+:root {
+  // global theme variables
+  --theme-500: rgb(204, 59, 59);
+  --theme-400: #e15858;
+  --theme-300: #f9c7c7;
+  --theme-100: #fdf0f0;
+
+  --grey-700: #333333;
+  --grey-600: #666666;
+  --grey-400: #a9a9a9;
+  --grey-300: #dbdbdb;
+  --grey-100: #fafafa;
+
+  --text: var(--grey-700);
+  --background: #ffffff;
+
+  --duration: 0.5s;
+  --text-timing: ease-out;
+  --background-timing: ease-in-out;
+
+  --font: "Noto Sans KR", sans-serif;
+
+  .navbar,
+  .navbar-item {
+    background-color: transparent;
+  }
+}
+
+$mobile-width: 768px;
+$min-desktop-width: 1088px;
+$mid-desktop-width: 1280px;
+$max-desktop-width: 1472px;
+
+@mixin breakPoint($breakpoint) {
+  @if $breakpoint == "mobile" {
+    @media (max-width: #{$mobile-width - 1}) {
+      @content;
+    }
+  } @else if $breakpoint == "mobile-min" {
+    @media (min-width: #{$mobile-width}) and (max-width: #{$min-desktop-width - 1}) {
+      @content;
+    }
+  } @else if $breakpoint == "min" {
+    @media (max-width: #{$min-desktop-width - 1}) {
+      @content;
+    }
+  } @else if $breakpoint == "min-mid" {
+    @media (min-width: #{$min-desktop-width}) and (max-width: #{$mid-desktop-width - 1}) {
+      @content;
+    }
+  } @else if $breakpoint == "mid" {
+    @media (max-width: #{$mid-desktop-width - 1}) {
+      @content;
+    }
+  } @else if $breakpoint == "mid-max" {
+    @media (min-width: #{$mid-desktop-width}) and (max-width: #{$max-desktop-width - 1}) {
+      @content;
+    }
+  } @else if $breakpoint == "max" {
+    @media (min-width: #{$max-desktop-width}) {
+      @content;
+    }
+  }
+}
+
+@mixin from($breakpoint) {
+  @if $breakpoint == "mobile" {
+    @media (min-width: #{$mobile-width}) {
+      @content;
+    }
+  } @else if $breakpoint == "min" {
+    @media (min-width: #{$min-desktop-width}) {
+      @content;
+    }
+  } @else if $breakpoint == "mid" {
+    @media (min-width: #{$mid-desktop-width}) {
+      @content;
+    }
+  } @else if $breakpoint == "max" {
+    @media (min-width: #{$max-desktop-width}) {
+      @content;
+    }
+  }
+}

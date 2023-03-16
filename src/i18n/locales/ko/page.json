@@ -2,5 +2,19 @@
   "credit": "만든 사람들",
   "license": "라이센스",
   "rules": "이용 약관",
-  "contact": "문의"
+  "contact": "문의",
+  "archive": "담아두기",
+  "unarchive": "담아두기 취소",
+  "block": "차단하기",
+  "unblock": "차단해제",
+  "report": "신고하기",
+  "edit": "수정",
+  "delete": "삭제",
+  "attachments": "첨부파일 모아보기",
+  "more": "{author} 님의 게시글 더 보기",
+  "show-hidden": "숨김글 보기",
+  "confirm-delete": "정말로 삭제하시겠습니까?",
+  "hidden-notice-ADULT_CONTENT": "게시물 보기 설정은 마이페이지에서 수정할 수 있습니다.",
+  "hidden-notice-SOCIAL_CONTENT": "게시물 보기 설정은 마이페이지에서 수정할 수 있습니다.",
+  "hidden-notice-BLOCKED_USER_CONTENT": "차단 사용자 설정은 마이페이지에서 확인할 수 있습니다."
 }

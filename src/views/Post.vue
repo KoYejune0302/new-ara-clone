@@ -47,7 +47,7 @@ import {
 } from '@/api'
 import { fetchWithProgress } from '@/views/helper'
 import ThePostComments from '@/components/ThePostComments.vue'
-import ThePostDetail from '@/components/ThePostDetail.vue'
+import ThePostDetail from '@/components/ThePostDetail'
 import ThePostHeader from '@/components/ThePostHeader.vue'
 import ThePostNavigation from '@/components/ThePostNavigation.vue'
 import TheLayout from '@/components/TheLayout.vue'

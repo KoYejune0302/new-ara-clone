@@ -2,5 +2,17 @@
   "credit": "Credit",
   "license": "License",
   "rules": "Terms of Service",
-  "contact": "Contact"
+  "contact": "Contact",
+  "archived": "Successfully added to your archive!",
+  "unarchived": "Successfully removed from your archive!",
+  "reported": "Successfully reported!",
+  "blocked": "The user has been blocked!",
+  "unblocked": "The user has been unblocked!",
+  "confirm-report": "Let me know your reason for reporting the post.",
+  "confirm-block": "Are you really want to block this user?",
+  "nonvotable-myself": "You cannot vote for your post!",
+  "already-reported": "You've already reported this article.",
+  "hidden-post": "Hidden post",
+  "report-unavailable": "You cannot report this post!",
+  "block-rate-limit": "You could block/unblock at most 10 times a day."
 }

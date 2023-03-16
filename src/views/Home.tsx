@@ -10,7 +10,7 @@ const Home = () => {
       </div>
 
       <div class="columns is-multiline">
-        <SmallBoard
+        {/* <SmallBoard
           :listitems="dailyBests"
           class="home__board column is-4"
           detail
@@ -39,12 +39,12 @@ const Home = () => {
           detail
         >
           {{ $t('ara-notice') }}
-        </SmallBoard>
+        </SmallBoard> */}
       </div>
     </TheLayout>
-  )
-}
-
+  );
+};
+/*
 <script>
 import { fetchArticles, fetchHome } from '@/api'
 import { fetchWithProgress } from '@/views/helper'
@@ -172,3 +172,4 @@ en:
   }
 }
 </style>
+*/

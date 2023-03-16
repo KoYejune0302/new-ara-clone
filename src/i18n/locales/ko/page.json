@@ -2,5 +2,17 @@
   "credit": "만든 사람들",
   "license": "라이센스",
   "rules": "이용 약관",
-  "contact": "문의"
+  "contact": "문의",
+  "archived": "담아둔 게시글에 담아졌습니다!",
+  "unarchived": "담아둔 게시글에서 제거하였습니다!",
+  "reported": "신고되었습니다!",
+  "blocked": "해당 유저가 차단되었습니다!",
+  "unblocked": "해당 유저가 차단해제되었습니다!",
+  "confirm-report": "게시물 신고 사유를 알려주세요.",
+  "confirm-block": "정말로 차단하시겠습니까?",
+  "nonvotable-myself": "본인 게시물에는 좋아요를 누를 수 없습니다!",
+  "already-reported": "이미 신고되었습니다.",
+  "hidden-post": "숨겨진 글",
+  "report-unavailable": "신고가 불가능한 글입니다!",
+  "block-rate-limit": "하루에 최대 10번만 차단/해제 할 수 있습니다."
 }

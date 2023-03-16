@@ -14,5 +14,19 @@
   "already-reported": "You've already reported this article.",
   "hidden-post": "Hidden post",
   "report-unavailable": "You cannot report this post!",
-  "block-rate-limit": "You could block/unblock at most 10 times a day."
+  "block-rate-limit": "You could block/unblock at most 10 times a day.",
+  "archive": "Bookmark",
+  "unarchive": "Delete Bookmark",
+  "block": "Block User",
+  "unblock": "Unblock User",
+  "report": "Report",
+  "edit": "Edit",
+  "delete": "Delete",
+  "attachments": "Attachments",
+  "more": "Read more posts by {author}",
+  "show-hidden": "Show hidden posts",
+  "confirm-delete": "Are you really want to delete this post?",
+  "hidden-notice-ADULT_CONTENT": "You can change the setting in your MyInfo page to show this kinds of post.",
+  "hidden-notice-SOCIAL_CONTENT": "You can change the setting in your MyInfo page to show this kinds of post.",
+  "hidden-notice-BLOCKED_USER_CONTENT": "You can change blocked users in your MyInfo page."
 }

@@ -14,6 +14,7 @@
     "sourceMap": true,
     "baseUrl": ".",
     "outDir": "./dist",
+    "noImplicitAny": false,
     "types": ["webpack-env", "jest", "node"],
     "paths": {
       "@/*": ["src/*"],
